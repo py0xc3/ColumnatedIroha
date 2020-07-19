@@ -33,7 +33,7 @@ Separated tables/keyspaces could be accessible by everyone, incorporating salted
 ## Just a draft
 The tool is not yet ready for use. To manage bottlenecks between Cassandra and Iroha, I have started to prepare asnycio. This will be critical when the distributed ledger outputs regularly many blocks with many transactions. Asyncio is not yet ready. Also, the Cassandra part is not yet implemented, too.
 
-For **testing purposes**, the tool can be used with python3 -i * to have the data of the first transferred block and its transactions (see file documentation; **before testing, enable the last, outcommented break in the source code, line 70**) in the respective variables.
+For **testing purposes**, the tool can be used with python3 -i * to have the data of the first transferred block and its transactions (see file documentation; **before testing, enable the last, outcommented break in the source code, line 71**) in the respective variables.
 
 Without the last break in the source code, the tool remains running and does its job when new blocks are delivered until the transactions have to be processed. The final transaction contents can be printed for demonstration purposes: I have already added two types of transactions to illustrate the structure of the objects. Yet, I had no time to add the Cassandra update commands using the Cassandra python module.
 
