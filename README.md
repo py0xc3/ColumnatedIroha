@@ -1,3 +1,5 @@
+# Deprecated
+
 # Drafting ColumnatedIroha
 
 ## Introduction
