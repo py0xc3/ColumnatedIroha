@@ -1,4 +1,4 @@
-# Deprecated
+# Deprecated / cancelled (archived!)
 
 # Drafting ColumnatedIroha
 
